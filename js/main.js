@@ -1,4 +1,4 @@
-const loginBtn = document.querySelector(".loginBtn")
+const loginBtn = document.querySelector(".signInBtn")
 const loginPage = 'http://127.0.0.1:5500/login.html'
 const localStrgList = document.querySelector(".localStrgList")
 
