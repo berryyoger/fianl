@@ -15,6 +15,7 @@ header{
     top: 0;
     left: 0;
     position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -30,27 +31,28 @@ header{
     top: 0px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.06), 0px 0px 2px rgba(0, 0, 0, 0.07);
-
+    justify-content: center
 }
 
 .sb-global-gutters{
     display: flex;
+    justify-content: center;
     align-items: center;
     position: relative;
+    width: 90%;
     height: 130px;
-    left: 50px;
     top: 0px;
 
 }
 
 .leftBtnGroup{
-    margin-left: 1%;
-    justify-content: space-around;
-    width: 40%;
+    justify-content: space-between;
+    width: 400px;
 }
 
 .leftBtnGroup>a{
     font-size: 18px;
+    margin-left: 6%;
     text-decoration: none;
     color: black;
     font-family: 'KorailRoundGothicBold';
@@ -62,33 +64,39 @@ header{
 }
 
 .rightBtnGroup{
-    margin-right: 20px;
-    justify-content: space-between;
-
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+    width: 59%;
+    
 }
 
 .rightBtnGroup>a{
     margin-right: 40px;
+    justify-content: right;
     font-size: 18px;
-    width: 120px;
-    height: 40px;
     border-radius: 50px;
     font-family: 'KorailRoundGothicBold';
     letter-spacing: 1.5px;
     text-decoration: none;
     cursor: pointer;
+    border: 1.5px solid black;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .signInBtn{
     color: black;
     background-color: white;
-    border: 1.5px solid black;
 }
 
 .joinNowBtn{
     background-color: black;
     color: white;
-    border: 1.5px solid black;
 }
 
 .first{
