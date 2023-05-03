@@ -17,24 +17,14 @@ header{
     position: fixed;
 }
 
-
-#next{
-    position: absolute;
-    width: 1920px;
-    height: 4411.06px;
-    left: 0px;
-    top: 0px;
-
-}
-
 .logo{
     width: 80px;
     height: 80px;
 }
 
 .Global{
-    position: absolute;
-    width: 1920px;
+    display: flex;
+    width: 100%;
     height: 130px;
     left: 0px;
     top: 0px;
@@ -45,8 +35,8 @@ header{
 
 .sb-global-gutters{
     display: flex;
-    align-items: center ;
-    position: absolute;
+    align-items: center;
+    position: relative;
     height: 130px;
     left: 50px;
     top: 0px;
@@ -54,11 +44,12 @@ header{
 }
 
 .leftBtnGroup{
-    justify-content: space-between;
+    margin-left: 1%;
+    justify-content: space-around;
+    width: 40%;
 }
 
 .leftBtnGroup>a{
-    margin-left: 40px;
     font-size: 18px;
     text-decoration: none;
     color: black;
@@ -71,11 +62,12 @@ header{
 }
 
 .rightBtnGroup{
+    margin-right: 20px;
     justify-content: space-between;
-    margin-left: 920px;
+
 }
 
-.rightBtnGroup>button{
+.rightBtnGroup>a{
     margin-right: 40px;
     font-size: 18px;
     width: 120px;
@@ -83,9 +75,12 @@ header{
     border-radius: 50px;
     font-family: 'KorailRoundGothicBold';
     letter-spacing: 1.5px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .signInBtn{
+    color: black;
     background-color: white;
     border: 1.5px solid black;
 }
@@ -135,4 +130,49 @@ footer{
     background-color: gainsboro;
     width: 100%;
     height: 800px;
+}
+
+
+
+
+/*from here, joinNow.html style*/
+
+.container{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid transparent;
+    height: 700px;
+    width: 50%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05), -10px -10px 15px rgba(0, 0, 0, 0.05), -10px 10px 15px rgba(0, 0, 0, 0.05), 10px -10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.createAccount{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.createAccount>input{
+    height: 5%;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+
+.btnGroup{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -15%;
+}
+
+.btnGroup>button{
+    border: 1.5px solid black;
+    border-radius: 20px;
+    height: 30%;
 }

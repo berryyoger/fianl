@@ -1,11 +1,12 @@
-const loginBtn = document.querySelector(".signInBtn")
-const loginPage = 'http://127.0.0.1:5500/login.html'
+const signInBtn = document.querySelector(".signInBtn")
+const signInPage = 'http://127.0.0.1:5500/signUp.html'
 const localStrgList = document.querySelector(".localStrgList")
 
 const getLocalstrg = document.querySelector(".getLocalStrg")
 
-const toLogin = () =>{
-    location.href=loginPage
+const toSignIn = () =>{
+    location.href=signInPage
+    alert("test")
 }
 
 const getUserData = () =>{
@@ -16,4 +17,4 @@ const getUserData = () =>{
 }
 
 getLocalstrg.addEventListener("click", getUserData)
-loginBtn.addEventListener("click", toLogin)
+signInBtn.addEventListener("click", toSignIn)
