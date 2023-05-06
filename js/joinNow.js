@@ -1,5 +1,5 @@
 const toLoginBtn = document.querySelector(".toLoginBtn")
-const loginPage = 'http://127.0.0.1:5500/login.html' //페이지 이동
+const loginPage = 'http://127.0.0.1:5500/signIn.html' //페이지 이동
 
 const email = document.querySelector(".email")
 const id = document.querySelector(".id")

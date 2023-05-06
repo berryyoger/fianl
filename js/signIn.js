@@ -1,5 +1,5 @@
 const toSignUpBtn = document.querySelector(".toSignUpBtn")
-const signUpPage = 'http://127.0.0.1:5500/signUp.html'
+const signUpPage = 'http://127.0.0.1:5500/signIn.html'
 const mainPage = 'http://127.0.0.1:5500/main.html'
 
 const id = document.querySelector(".id")

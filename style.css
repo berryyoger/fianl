@@ -148,9 +148,11 @@ footer{
 .container{
     margin-top: 170px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     border: 3px solid transparent;
-    height: 700px;
+    height: 1000px;
     width: 50%;
     border-radius: 5%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05), -10px -10px 15px rgba(0, 0, 0, 0.05), -10px 10px 15px rgba(0, 0, 0, 0.05), 10px -10px 15px rgba(0, 0, 0, 0.05);
@@ -158,29 +160,37 @@ footer{
 
 .createAccount{
     display: flex;
-    width: 50%;
-    height: 100%;
+    width: 70%;
+    height: 80%;
     flex-direction: column;
     justify-content: space-around;
+    font-family: 'KorailRoundGothicBold';
+    font-size: 18pt;
     
 }
 
 .createAccount>input{
-    height: 5%;
+    height: 70px;
     border-radius: 10px;
-    border: 1.5px solid black;
+    border: 2px solid black;
+    font-family: 'KorailRoundGothicBold';
+    font-size: 16pt;
+}
+
+.createAccount>input.password{
+    color: black;
 }
 
 .btnGroup{
     height: 20%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: -15%;
 }
 
 .btnGroup>button{
     border: 1.5px solid black;
     border-radius: 20px;
-    height: 30%;
+    height: 50px;
 }
