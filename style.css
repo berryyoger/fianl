@@ -161,9 +161,9 @@ footer{
 .createAccount{
     display: flex;
     width: 70%;
-    height: 80%;
+    height: 72%;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'KorailRoundGothicBold';
     font-size: 18pt;
     
@@ -175,6 +175,17 @@ footer{
     border: 2px solid black;
     font-family: 'KorailRoundGothicBold';
     font-size: 16pt;
+    transition: 0.5s;
+}
+
+.createAccount>input:focus{
+    height: 85px;
+    transition: 0.5s;
+}
+
+.createAccount>input:hover{
+    height: 85px;
+    transition: 0.5s;
 }
 
 .createAccount>input.password{
@@ -186,11 +197,22 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: -15%;
+    
 }
 
 .btnGroup>button{
     border: 1.5px solid black;
-    border-radius: 20px;
-    height: 50px;
+    border-radius: 32px;
+    height: 60px;
+    font-size: 17pt;
+    font-family: 'KorailRoundGothicBold';
+    cursor: pointer;
+}
+
+.createAccountBtn{
+    background-color: white;
+}
+.toLoginBtn{
+    background-color: black;
+    color: white;
 }
