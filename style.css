@@ -216,3 +216,55 @@ footer{
     background-color: black;
     color: white;
 }
+
+/*from here, signIn.html style*/
+.login{
+    display: flex;
+    width: 70%;
+    height: 72%;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'KorailRoundGothicBold';
+    font-size: 18pt;
+    
+}
+
+.login>input{
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'KorailRoundGothicBold';
+    font-size: 16pt;
+    transition: 0.5s;
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-around;
+}
+
+.inputGroup>input{
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'KorailRoundGothicBold';
+    font-size: 16pt;
+    transition: 0.5s;
+}
+
+.inputGroup>input:focus{
+    height: 85px;
+    transition: 0.5s;
+}
+
+.inputGroup>input:hover{
+    height: 85px;
+    transition: 0.5s;
+}
+
+.inputGroup>input.password{
+    color: black;
+}
+
