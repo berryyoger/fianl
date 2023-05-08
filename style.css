@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -173,7 +180,7 @@ footer{
     height: 70px;
     border-radius: 10px;
     border: 2px solid black;
-    font-family: 'KorailRoundGothicBold';
+    font-family: 'GmarketSansMedium';
     font-size: 16pt;
     transition: 0.5s;
 }
@@ -181,6 +188,8 @@ footer{
 .createAccount>input:focus{
     height: 85px;
     transition: 0.5s;
+    outline: none;
+
 }
 
 .createAccount>input:hover{
@@ -233,7 +242,7 @@ footer{
     height: 70px;
     border-radius: 10px;
     border: 2px solid black;
-    font-family: 'KorailRoundGothicBold';
+    font-family: 'GmarketSansMedium';
     font-size: 16pt;
     transition: 0.5s;
 }
@@ -257,6 +266,7 @@ footer{
 .inputGroup>input:focus{
     height: 85px;
     transition: 0.5s;
+    outline: none;
 }
 
 .inputGroup>input:hover{
@@ -268,3 +278,12 @@ footer{
     color: black;
 }
 
+.loginBtn{
+    background-color: white;
+
+}
+
+.toJoinNowBtn{
+    background-color: black;
+    color: white;
+}

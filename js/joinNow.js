@@ -1,10 +1,12 @@
 const toLoginBtn = document.querySelector(".toLoginBtn")
 const loginPage = 'http://127.0.0.1:5500/signIn.html' //페이지 이동
 
-const email = document.querySelector(".email")
-const id = document.querySelector(".id")
-const password = document.querySelector(".password")
-const confirmPassword = document.querySelector(".confirmPassword") //values
+const email = document.getElementById("email")
+const id = document.getElementById("id")
+const password = document.getElementById("password")
+const confirmPassword = document.getElementById("confirmPassword") //values
+
+const emailRqr = document.getElementById("email").requird
 
 const createAccountBtn = document.querySelector(".createAccountBtn") //crtBtn
 
