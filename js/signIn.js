@@ -1,5 +1,5 @@
-const toSignUpBtn = document.querySelector(".toSignUpBtn")
-const signUpPage = 'http://127.0.0.1:5500/signIn.html'
+const toJoinNowBtn = document.querySelector(".toJoinNowBtn")
+const joinNowPage = 'http://127.0.0.1:5500/joinNow.html'
 const mainPage = 'http://127.0.0.1:5500/main.html'
 
 const id = document.querySelector(".id")
@@ -7,8 +7,8 @@ const password = document.querySelector(".password")
 
 const loginBtn = document.querySelector(".loginBtn")
 
-const toSignUp = () =>{
-    location.href=signUpPage
+const toJoinNow = () =>{
+    location.href=joinNowPage
 }
 
 const login = () =>{
@@ -35,5 +35,5 @@ const login = () =>{
     }
 }
 
-toSignUpBtn.addEventListener("click", toSignUp)
+toJoinNowBtn.addEventListener("click", toJoinNow)
 loginBtn.addEventListener("click", login)
