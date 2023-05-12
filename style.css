@@ -30,6 +30,7 @@ header{
 .logo{
     width: 80px;
     height: 80px;
+    cursor: pointer;
 }
 
 .Global{
@@ -109,7 +110,7 @@ header{
 }
 
 .first{
-    margin-top: 170px;
+    margin-top: 150px;
     width: 99%;
     height: 1000px;
     background-color: gray;
@@ -181,7 +182,7 @@ footer>p{
     align-items: center;
     border: 3px solid transparent;
     height: 1000px;
-    width: 50%;
+    width: 40%;
     border-radius: 5%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05), -10px -10px 15px rgba(0, 0, 0, 0.05), -10px 10px 15px rgba(0, 0, 0, 0.05), 10px -10px 15px rgba(0, 0, 0, 0.05);
 }
@@ -201,7 +202,7 @@ footer>p{
     height: 70px;
     border-radius: 10px;
     border: 2px solid black;
-    font-family: 'GmarketSansMedium';
+    font-family: 'KorailRoundGothicBold';
     font-size: 16pt;
     transition: 0.5s;
 }
