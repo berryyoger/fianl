@@ -188,7 +188,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
     height: 100%;
     width: 50%;
 }
@@ -370,12 +369,41 @@ footer>p{
     font-family: 'Pretendard-Regular';
 }
 
+.aboutBox.double{
+    display: flex;
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
 .aboutBox>.double>.double-left{
-    background-color: white;
+    background: linear-gradient(to right, white,rgba(255, 255, 255, 0.2));
+    width: 100%;
 }
 
 .aboutBox>.double>.double-right{
-    background-color: white;
+    background: linear-gradient(to left, white,rgba(255, 255, 255, 0.2));
+    text-align: right;
+    width: 100%;
+}
+
+.arabica{
+    background-image: url(img/arabica.png);
+}
+
+.water{
+    background-image: url(img/water.png);
+}
+
+.brewing{
+    background-image: url(img/brewing.png);
+}
+
+.beens{
+    background-image: url(img/beens.png);
 }
 
 .imgBox{
@@ -384,6 +412,9 @@ footer>p{
 }
 
 article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 90%;
     height: 100%;
 }
@@ -396,6 +427,7 @@ article{
 
 .aboutUs>article>h2{
     margin-top: 0;
+    margin-bottom: 0;
     font-size: 30pt;
     font-family: 'Pretendard-Light';
     font-weight: 500;
