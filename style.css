@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -132,12 +139,16 @@ header{
 }
 
 .double-left{
+    display: flex;
+    justify-content: center;
     background-color: gray;
     height: 100%;
     width: 50%;
 }
 
 .double-right{
+    display: flex;
+    justify-content: center;
     background-color: lightgray;
     height: 100%;
     width: 50%;
@@ -308,4 +319,41 @@ footer>p{
 .toJoinNowBtn{
     background-color: black;
     color: white;
+}
+
+/*from here, aboutCEO.html style*/
+
+.aboutBox{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    font-family: 'Pretendard-Regular';
+}
+
+.aboutBox>.double>.double-left{
+    background-color: white;
+}
+
+article{
+    width: 90%;
+}
+
+.aboutUs>article>h1{
+    font-size: 20pt;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.aboutUs>article>h2{
+    margin-top: 0;
+    font-size: 30pt;
+    font-family: 'Pretendard-Light';
+    font-weight: 500;
+}
+
+.aboutUs>article>h3{
+    font-size: 26pt;
+    font-family: 'Pretendard-Light';
+    font-weight: 300;
 }
