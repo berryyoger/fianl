@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'KorailRoundGothicBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KorailRoundGothicBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.Global{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.06), 0px 0px 2px rgba(0, 0, 0, 0.07);
+    justify-content: center
+}
+
+.sb-global-gutters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    height: 130px;
+    top: 0px;
+
+}
+
+.leftBtnGroup{
+    justify-content: space-between;
+    width: 400px;
+}
+
+.leftBtnGroup>a{
+    font-size: 18px;
+    margin-left: 6%;
+    text-decoration: none;
+    color: black;
+    font-family: 'KorailRoundGothicBold';
+    letter-spacing: 2px;
+}
+
+.leftBtnGroup>a:hover{
+    color: green;
+}
+
+.rightBtnGroup{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+    width: 59%;
+    
+}
+
+.rightBtnGroup>a{
+    margin-right: 40px;
+    justify-content: right;
+    font-size: 18px;
+    border-radius: 50px;
+    font-family: 'KorailRoundGothicBold';
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1.5px solid black;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signInBtn{
+    color: black;
+    background-color: white;
+}
+
+.joinNowBtn{
+    background-color: black;
+    color: white;
+}
+
+.double{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 99%;
+    height: 550px;
+}
+
+.double-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.double-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 3%;
+    padding-left: 15%;
+    width: 101%;
+    min-height: 400px;
+    justify-content: space-around;
+    margin-top: 5%;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.1), 0 -2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
+}
+
+footer>details{
+    font-size: 24pt;
+}
+
+footer>details>span{
+    font-size: 18pt;
+}
+
+footer>p{
+    color: rgb(128, 128, 128);
+    font-size: 14pt;
+
+}
+
+.aboutBox{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    font-family: 'Pretendard-Regular';
+}
+
+.aboutBox.double{
+    display: flex;
+}
+
+.aboutBox>.double>.double-left{
+    background: linear-gradient(to right, white,rgba(255, 255, 255, 0.2));
+    width: 100%;
+}
+
+.aboutBox>.double>.double-right{
+    background: linear-gradient(to left, white,rgba(255, 255, 255, 0.2));
+    text-align: right;
+    width: 100%;
+}
+
+.CEOImgBox{
+    border: 1px solid black;
+    align-items: center;
+    width: 340px;
+    height: 480px;
+    margin-left: 5%;
+}
+
+.aboutCEO>article>h1{
+    margin-bottom: 0;
+    font-size: 28pt;
+    font-family: 'Pretendard-Light';
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.aboutCEO>article>h2{
+    font-size: 28pt;
+    font-family: 'Pretendard-Light';
+    font-weight: 400;
+}
+
+.aboutCEO>article>h3{
+    margin-top: 0;
+    font-size: 32pt;
+    font-family: 'Pretendard-Light';
+    font-weight: 600;
+    height: 30px;
+}
+
+.aboutCEO>article>h4{
+    font-size: 18pt;
+    font-family: 'Pretendard-Light';
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.aboutCEO>article>details>summary{
+    margin-top: 0;
+    font-size: 18pt;
+    font-family: 'Pretendard-Light';
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.aboutCEO>article>details>li{
+    font-size: 16pt;
+    font-family: 'Pretendard-Light';
+    font-weight: 300;
+    margin-bottom: 20px;
+}
