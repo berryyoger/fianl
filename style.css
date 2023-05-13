@@ -123,14 +123,13 @@ header{
     height: 800px;
     border: 1px solid black;
     align-items: center;
+    background-image: url(img/main.png);
+    
 }
 
 .mainIntro{
     overflow: hidden;
-}
-
-.mainIntroImg{
-    height: 100%;
+    
 }
 
 .mainIntroText{
@@ -148,6 +147,7 @@ header{
     font-size: 80pt;
     font-family: 'Pretendard-Regular';
     font-weight: 700;
+    
 }
 
 .mainIntroText>h2{
@@ -219,6 +219,7 @@ footer>p{
     font-size: 14pt;
 
 }
+
 
 
 /*from here, joinNow.html style*/
