@@ -64,7 +64,7 @@ header{
 
 .leftBtnGroup{
     justify-content: space-between;
-    width: 400px;
+    width: 500px;
 }
 
 .leftBtnGroup>a{
@@ -173,7 +173,6 @@ footer>p{
     display: flex;
     width: 99%;
     height: 800px;
-    border: 1px solid black;
     align-items: center;
     background-image: url(img/main.png);
     
@@ -188,7 +187,6 @@ footer>p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
     color: white;
     padding-left: 5%;
 }
@@ -218,4 +216,70 @@ footer>p{
     border: 1px solid black;
     justify-content: center;
     align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu>h1{
+    font-size: 40pt;
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+}
+
+.menu1img{
+    background-image: url(img/cappuccino.png);
+    overflow: hidden;
+}
+
+.menu1text{
+    background-color: #d9dada;
+}
+
+.menu2img{
+    background-image: url(img/bread.png);
+    overflow: hidden;
+}
+
+.menu2text{
+    background-color: #fef5b9;
+}
+
+.coffeebeens{
+    background-image: url(img/coffeebeens.png);
+    display: flex;
+    color: white;
+    justify-content: right;
+    padding-right: 10%;
+}
+
+.coffeebeensText{
+    width: 600px
+}
+
+.coffeebeensText>h1{
+    font-size: 80pt;
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.coffeebeensText>h2{
+    font-size: 36pt;
+    font-family: 'Pretendard-Regular';
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.coffeebeensText>a{
+    font-size: 28pt;
+    font-family: 'Pretendard-Regular';
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }

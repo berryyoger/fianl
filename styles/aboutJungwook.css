@@ -64,7 +64,7 @@ header{
 
 .leftBtnGroup{
     justify-content: space-between;
-    width: 400px;
+    width: 500px;
 }
 
 .leftBtnGroup>a{
@@ -180,12 +180,6 @@ footer>p{
     display: flex;
 }
 
-.right{
-    display: flex;
-    justify-content: right;
-    width: 100%;
-}
-
 .aboutBox>.double>.double-left{
     background: linear-gradient(to right, white,rgba(255, 255, 255, 0.2));
     width: 100%;
@@ -193,62 +187,62 @@ footer>p{
 
 .aboutBox>.double>.double-right{
     background: linear-gradient(to left, white,rgba(255, 255, 255, 0.2));
-    text-align: right;
+    text-align: left;
     width: 100%;
 }
 
-.arabica{
-    background-image: url(img/arabica.png);
-}
-
-.water{
-    background-image: url(img/water.png);
-}
-
-.brewing{
-    background-image: url(img/brewing.png);
-}
-
-.beens{
-    background-image: url(img/beens.png);
-}
-
-.imgBox{
+.CEOImgBox{
     border: 1px solid black;
     align-items: center;
+    width: 340px;
+    height: 480px;
+    margin-left: 5%;
 }
 
-article{
+.aboutCEO{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    height: 100%;
+    justify-content: left;
+    align-items: flex-start;
 }
 
-.aboutUs>article>h1{
-    font-size: 20pt;
-    font-weight: 700;
+.aboutCEO>article{
+    margin-left: 3%;
+}
+
+.aboutCEO>article>h1{
     margin-bottom: 0;
-}
-
-.aboutUs>article>h2{
+    font-size: 28pt;
+    font-family: 'Pretendard-Light';
+    font-weight: 300;
     margin-top: 0;
-    margin-bottom: 0;
+}
+
+.aboutCEO>article>h2{
     font-size: 30pt;
     font-family: 'Pretendard-Light';
     font-weight: 500;
+    margin-top: 0;
+    height: 30px;
 }
 
-.aboutUs>article>h3{
-    font-size: 26pt;
+.aboutCEO>article>h3{
+    margin-top: 0;
+    font-size: 32pt;
     font-family: 'Pretendard-Light';
-    font-weight: 300;
+    font-weight: 600;
+    height: 30px;
 }
 
-.aboutUs>article>h4{
+.aboutCEO>article>h4{
     font-size: 18pt;
     font-family: 'Pretendard-Light';
     font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.aboutCEO>article>li{
+    font-size: 16pt;
+    font-family: 'Pretendard-Light';
+    font-weight: 300;
     margin-bottom: 20px;
 }
