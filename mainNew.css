@@ -170,14 +170,66 @@ footer>p{
 }
 
 section{
-    width: 90%;
+    width: 80%;
     margin-top: 150px;
+    overflow: hidden;
+}
+
+article{
+    margin-top: 200px;
+}
+
+.bennerGroup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bennerGroup>span{
+    color: white;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.bennerText{
+    overflow: hidden;
+    transition: all 2s;
+}
+
+.bennerTextGroupH1{
+    transition: all 2s;
+}
+
+.bennerTextGroupH2{
+    transition: all 2s;
+
+}
+
+.bennerTextGroupH1>h1{
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bennerTextGroupH2>h2{
+    font-family: 'Pretendard-Regular';
+    font-weight: 500;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
     overflow: hidden;
 }
 
 .benner{
     width: 99%;
     height: 800px;
+    background-color: gray;
+    z-index: 1;
 }
 
 .mainTitle{
@@ -247,7 +299,7 @@ section{
     width: 300px;
     background-color: rgb(255, 196, 196);
     border-radius: 100%;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 span.left{
@@ -278,7 +330,7 @@ span.left{
     width: 300px;
     background-color: rgb(255, 196, 196);
     border-radius: 100%;
-    margin-right: 100px;
+    margin-right: 60px;
 }
 
 span.right{
@@ -293,6 +345,7 @@ span.right{
     margin-top: 0;
     font-weight: 700;
     font-size: 50px;
+    margin-bottom: 0;
 }
 
 .textBox>span>div>h2{
