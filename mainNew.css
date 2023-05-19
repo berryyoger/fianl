@@ -294,12 +294,21 @@ article{
     align-items: center;
 }
 
-.left>img{
+.menuImg{
     height: 300px;
     width: 300px;
-    background-color: rgb(255, 196, 196);
     border-radius: 100%;
     margin-left: 60px;
+}
+
+.menuImg>.cake{
+    border-radius: 100%;
+    background-color: rgb(255, 196, 196);
+}
+
+.menuImg>.lemonaid{
+    border-radius: 100%;
+    background-color: lightyellow;
 }
 
 span.left{
@@ -323,14 +332,6 @@ span.left{
     display: flex;
     align-items: center;
     justify-content: right;
-}
-
-.right>img{
-    height: 300px;
-    width: 300px;
-    background-color: rgb(255, 196, 196);
-    border-radius: 100%;
-    margin-right: 60px;
 }
 
 span.right{
