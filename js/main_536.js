@@ -1,5 +1,5 @@
 const signInBtn = document.querySelector(".signInBtn")
-const signInPage = 'http://127.0.0.1:5500/signUp.html'
+const signInPage = 'http://127.0.0.1:5500/signUp_536.html'
 const localStrgList = document.querySelector(".localStrgList")
 
 const getLocalstrg = document.querySelector(".getLocalStrg")

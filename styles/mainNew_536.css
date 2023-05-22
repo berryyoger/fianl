@@ -25,6 +25,7 @@ body{
     align-items: center;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    justify-content: center;
 }
 
 header{
@@ -49,7 +50,7 @@ header{
     top: 0px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.06), 0px 0px 2px rgba(0, 0, 0, 0.07);
-    justify-content: center
+    justify-content: center;
 }
 
 .sb-global-gutters{
@@ -141,7 +142,6 @@ header{
     width: 50%;
 }
 
-
 footer{
     display: flex;
     flex-direction: column;
@@ -169,76 +169,201 @@ footer>p{
 
 }
 
-.container{
-    margin-top: 170px;
+section{
+    width: 80%;
+    margin-top: 150px;
+    overflow: hidden;
+}
+
+.menus{
+    margin: 0;
+}
+
+article{
+    margin-top: 200px;
+}
+
+.bennerGroup{
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid transparent;
-    height: 1000px;
-    width: 40%;
-    border-radius: 5%;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05), -10px -10px 15px rgba(0, 0, 0, 0.05), -10px 10px 15px rgba(0, 0, 0, 0.05), 10px -10px 15px rgba(0, 0, 0, 0.05);
-}
-
-.createAccount{
-    display: flex;
-    width: 70%;
-    height: 72%;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'KorailRoundGothicBold';
-    font-size: 18pt;
-    
-}
-
-.createAccount>input{
-    height: 70px;
-    border-radius: 10px;
-    border: 2px solid black;
-    font-family: 'KorailRoundGothicBold';
-    font-size: 16pt;
-    transition: 0.5s;
-}
-
-.createAccount>input:focus{
-    height: 85px;
-    transition: 0.5s;
-    outline: none;
-
-}
-
-.createAccount>input:hover{
-    height: 85px;
-    transition: 0.5s;
-}
-
-.createAccount>input.password{
-    color: black;
-}
-
-.btnGroup{
-    height: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
-}
-
-.btnGroup>button{
-    border: 1.5px solid black;
-    border-radius: 32px;
-    height: 60px;
-    font-size: 17pt;
-    font-family: 'KorailRoundGothicBold';
-    cursor: pointer;
-}
-
-.createAccountBtn{
-    background-color: white;
-}
-.toLoginBtn{
-    background-color: black;
     color: white;
+}
+
+.bennerGroup>span{
+    color: white;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.bennerText{
+    overflow: hidden;
+    transition: all 2s;
+}
+
+.bennerTextGroupH1{
+    transition: all 2s;
+}
+
+.bennerTextGroupH2{
+    transition: all 2s;
+
+}
+
+.bennerTextGroupH1>h1{
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bennerTextGroupH2>h2{
+    font-family: 'Pretendard-Regular';
+    font-weight: 500;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.benner{
+    width: 99%;
+    height: 800px;
+    background-image: url(img/main_536.png);
+    z-index: 1;
+}
+
+.mainTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: all 3s;
+}
+
+.mainTitle>h1{
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mainTitle>h2{
+    font-family: 'Pretendard-Regular';
+    font-weight: 500;
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.textBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    opacity: 0;
+    transition: all 2s;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.alignRight{
+    display: flex;
+    align-items: flex-end;
+}
+
+.textBox>span{
+    width: 100%;
+}
+
+.borderLeft{
+    border-left: 3px black solid;
+    width: 100%-30px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+.left{
+    padding-left: 30px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.menuImg{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin-left: 60px;
+}
+
+.menuImg>.cake{
+    border-radius: 100%;
+    background-color: rgb(255, 196, 196);
+}
+
+.menuImg>.lemonaid{
+    border-radius: 100%;
+    background-color: lightyellow;
+}
+
+span.left{
+    transition: all 1s;
+    transform: translateX(-400px);
+    position: relative;
+    z-index: 2;
+}
+
+.borderRight{
+    border-right: 3px black solid;
+    width: 100%-30px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+.right{
+    padding-right: 30px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+span.right{
+    transition: all 1s;
+    transform: translateX(400px);
+    position: relative;
+    z-index: 2;
+}
+
+.textBox>span>div>h1{
+    font-family: 'Pretendard-Regular';
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.textBox>span>div>h2{
+    font-family: 'Pretendard-Regular';
+    font-weight: 500;
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.textBox>span>div>h3{
+    font-family: 'Pretendard-Regular';
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 0;
 }

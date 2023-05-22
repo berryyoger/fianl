@@ -169,131 +169,76 @@ footer>p{
 
 }
 
-.first{
-    margin-top: 150px;
-    display: flex;
-    width: 99%;
-    height: 800px;
-    align-items: center;
-    background-image: url(img/main.png);
-    
-}
-
-.mainIntro{
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-
-.mainIntroText{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.25);
-    height: 100%;
-    width: 100%;
-}
-
-.mainIntroText>.h1Group>h1{
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 80pt;
-    font-family: 'Pretendard-Regular';
-    font-weight: 700;
-    
-}
-
-.mainIntroText>h2{
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 40pt;
-    font-family: 'Pretendard-Regular';
-    font-weight: 500;
-}
-
-.mono{
-    margin-top: 40px;
-    display: flex;
-    width: 99%;
-    height: 550px;
-    border: 1px solid black;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu{
+.container{
+    margin-top: 170px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 3px solid transparent;
+    height: 1000px;
+    width: 60%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05), -10px -10px 15px rgba(0, 0, 0, 0.05), -10px 10px 15px rgba(0, 0, 0, 0.05), 10px -10px 15px rgba(0, 0, 0, 0.05);
 }
 
-.menu>h1{
-    font-size: 40pt;
-    font-family: 'Pretendard-Regular';
-    font-weight: 700;
-}
-
-.menu1img{
-    background-image: url(img/cappuccino.png);
-    overflow: hidden;
-}
-
-.menu1text{
-    background-color: #d9dada;
-}
-
-.menu2img{
-    background-image: url(img/bread.png);
-    overflow: hidden;
-}
-
-.menu2text{
-    background-color: #fef5b9;
-}
-
-.coffeebeens{
-    background-image: url(img/coffeebeens.png);
+.createAccount{
     display: flex;
-    color: white;
-    justify-content: right;
-    padding-right: 10%;
+    width: 70%;
+    height: 72%;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'KorailRoundGothicBold';
+    font-size: 18pt;
+    
 }
 
-.coffeebeensText{
-    width: 600px
+.createAccount>input{
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'KorailRoundGothicBold';
+    font-size: 16pt;
+    transition: 0.5s;
 }
 
-.coffeebeensText>h1{
-    margin-top: 0;
-    font-size: 70pt;
-    font-family: 'Pretendard-Regular';
-    font-weight: 700;
-    margin-bottom: 0;
+.createAccount>input:focus{
+    height: 85px;
+    transition: 0.5s;
+    outline: none;
+
 }
 
-.coffeebeensText>h2{
-    font-size: 28pt;
-    font-family: 'Pretendard-Regular';
-    font-weight: 500;
-    margin-top: 0;
+.createAccount>input:hover{
+    height: 85px;
+    transition: 0.5s;
 }
 
-.coffeebeensText>a{
-    font-size: 28pt;
-    font-family: 'Pretendard-Regular';
-    font-weight: 600;
+.createAccount>input.password{
+    color: black;
+}
+
+.btnGroup{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.btnGroup>button{
+    border: 1.5px solid black;
+    border-radius: 32px;
+    height: 60px;
+    font-size: 17pt;
+    font-family: 'KorailRoundGothicBold';
     cursor: pointer;
-    text-decoration: none;
-    color: white;
 }
 
-.h1Group{
-    height: 128px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.createAccountBtn{
+    background-color: white;
+}
+.toLoginBtn{
+    background-color: black;
+    color: white;
 }

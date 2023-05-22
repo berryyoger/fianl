@@ -1,6 +1,6 @@
 const toJoinNowBtn = document.querySelector(".toJoinNowBtn")
-const joinNowPage = 'http://127.0.0.1:5500/joinNow.html'
-const mainPage = 'http://127.0.0.1:5500/mainNew.html'
+const joinNowPage = 'http://127.0.0.1:5500/joinNow_536.html'
+const mainPage = 'http://127.0.0.1:5500/mainNew_536.html'
 
 const id = document.querySelector(".id")
 const password = document.querySelector(".password")

@@ -1,12 +1,15 @@
 const toLoginBtn = document.querySelector(".toLoginBtn")
-const loginPage = 'http://127.0.0.1:5500/signIn.html' //페이지 이동
+const loginPage = 'http://127.0.0.1:5500/signIn_536.html' //페이지 이동
 
 const email = document.getElementById("email")
 const id = document.getElementById("id")
 const password = document.getElementById("password")
-const confirmPassword = document.getElementById("confirmPassword") //values
+const confirmPassword = document.getElementById("confirmPassword") 
+const tel = document.getElementById("tel") 
+const address = document.getElementById("address") 
 
-const emailRqr = document.getElementById("email").requird
+//values
+
 
 const createAccountBtn = document.querySelector(".createAccountBtn") //crtBtn
 
@@ -24,7 +27,9 @@ const getValue = () =>{
         email: email.value,
         id: id.value,
         password: password.value,
-        confirmPassword: false
+        confirmPassword: false,
+        tel: tel.value,
+        address: address.value
     }
         if(password.value === confirmPassword.value) {
                 account.confirmPassword = true
