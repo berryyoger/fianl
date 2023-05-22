@@ -214,8 +214,10 @@ footer>p{
     transition: 0.5s;
 }
 
-.createAccount>input.password{
+.createAccount>input[type=password]{
     color: black;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .btnGroup{
