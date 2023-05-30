@@ -45,7 +45,7 @@ header{
 .Global{
     display: flex;
     width: 100%;
-    height: 130px;
+    height: 100px;
     left: 0px;
     top: 0px;
     background: #FFFFFF;
@@ -59,7 +59,7 @@ header{
     align-items: center;
     position: relative;
     width: 90%;
-    height: 130px;
+    height: 100px;
     top: 0px;
 
 }
@@ -70,7 +70,7 @@ header{
 }
 
 .leftBtnGroup>a{
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 6%;
     text-decoration: none;
     color: black;
@@ -303,6 +303,7 @@ article{
     width: 300px;
     border-radius: 100%;
     margin-left: 60px;
+    margin-right: 60px;
 }
 
 .menuImg>.cake{
@@ -349,14 +350,14 @@ span.right{
     font-family: 'Pretendard-Regular';
     margin-top: 0;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 46px;
     margin-bottom: 0;
 }
 
 .textBox>span>div>h2{
     font-family: 'Pretendard-Regular';
     font-weight: 500;
-    font-size: 38px;
+    font-size: 26px;
     margin-top: 0;
     margin-bottom: 0;
 }
