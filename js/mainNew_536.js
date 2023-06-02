@@ -67,7 +67,6 @@ let bennerTextGroupH2 = document.querySelector('.bennerTextGroupH2')
     upComing.observe(textBox[2])
     upComing.observe(textBox[3])
     upComing.observe(textBox[4])
-    upComing.observe(textBox[5])
 
     upComingFromLeft.observe(left[0])
     upComingFromLeft.observe(left[1])
@@ -75,7 +74,6 @@ let bennerTextGroupH2 = document.querySelector('.bennerTextGroupH2')
 
     upComingFromRight.observe(right[0])
     upComingFromRight.observe(right[1])
-    upComingFromRight.observe(right[2])
     
 
     setInterval(pass, 4000)

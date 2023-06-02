@@ -228,7 +228,7 @@ article{
 }
 
 .aboutUs:hover{
-    transition: all 0.7s;
+    transition: all 0.63s;
     filter: blur(0);
     position:relative;
     opacity: 1;

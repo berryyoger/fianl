@@ -306,6 +306,11 @@ article{
     margin-right: 60px;
 }
 
+.menuImg>img{
+    height: 300px;
+    width: 300px;
+}
+
 .menuImg>.cake{
     border-radius: 100%;
     background-color: rgb(255, 196, 196);
@@ -314,6 +319,20 @@ article{
 .menuImg>.lemonaid{
     border-radius: 100%;
     background-color: lightyellow;
+}
+
+.menuImg>.americano{
+    border-radius: 100%;
+    background-color: #d4ab77;
+}
+
+.menuImg>.bagle{
+    border-radius: 100%;
+}
+
+.menuImg>.abala{
+    border-radius: 100%;
+    background-color: blanchedalmond;
 }
 
 span.left{
