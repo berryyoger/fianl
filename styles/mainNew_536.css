@@ -336,7 +336,7 @@ article{
 }
 
 span.left{
-    transition: all 1s;
+    transition: all 0.7s;
     transform: translateX(-400px);
     position: relative;
     z-index: 2;

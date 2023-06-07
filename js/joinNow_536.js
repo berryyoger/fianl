@@ -7,6 +7,7 @@ const password = document.getElementById("password")
 const confirmPassword = document.getElementById("confirmPassword") 
 const tel = document.getElementById("tel") 
 const address = document.getElementById("address") 
+const name = document.getElementById("name") 
 
 //values
 
@@ -24,6 +25,7 @@ const toLogin = () =>{
 
 const getValue = () =>{
     const account = {
+        name : name.value,
         email: email.value,
         id: id.value,
         password: password.value,
